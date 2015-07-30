@@ -1,0 +1,66 @@
+﻿* {
+  font-size:100%;
+}
+#loading_git {
+  width:50%;
+  z-index: 3;
+  position:fixed;
+  top:10px;
+  left:25%;
+  background-color: #ccff99;
+  padding: 3px;
+  border: #009933 solid 1px;
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
+#loading {
+  display: none;
+  overflow: hidden;
+}
+#showblock_git {
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 100px;
+  height: 320pt;
+  overflow: scroll;
+  border-top: gray 1px solid;
+}
+#findgit {
+  width: 40%;
+  min-width: 100px;
+  border: 1px #a7a6aa solid;
+}
+#table_git, #table_git td {
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+}
+#table_git, #blockmenu {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#table_git td, #blockmenu td {
+  padding: 0.2em;
+}
+td.edit {
+  background-color:#eee;
+}
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #0000ff;
+}
+fieldset {
+  min-width: 500px; 
+  border: gray solid 1px;
+  padding: 0.5em;
+}
+legend {
+  color: #444444;
+}
+.silver {
+  color: #999999;
+}
+.red {
+  color: #ff0000;
+}
